@@ -37,4 +37,19 @@ Lista de Prioridades:
  
 > Testando o Blockquote
 
+Este é um método `console.log()` do JavaScript
+
+Esta é uma função do JavaScript
+```javascript
+function selecionarElemento() {
+  const body = document.querySelector('body');
+}
+```
+
+Frutas | Doces | Salgados
+:-------|:-------:|----------:
+Banana | Chocolate | Coxinha
+Maçã   | Bala  | Esfiha
+Uva    | Bombom | Tapioca
+
 
