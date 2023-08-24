@@ -46,7 +46,7 @@ function selecionarElemento() {
 }
 ```
 
-Frutas | Doces | Salgados
+Frutas  | Doces     | Salgados
 :-------|:---------:|----------:
 Banana  | Chocolate | Coxinha
 Maçã    | Bala      | Esfiha
