@@ -47,9 +47,9 @@ function selecionarElemento() {
 ```
 
 Frutas | Doces | Salgados
-:-------|:-------:|----------:
-Banana | Chocolate | Coxinha
-Maçã   | Bala  | Esfiha
-Uva    | Bombom | Tapioca
+:-------|:---------:|----------:
+Banana  | Chocolate | Coxinha
+Maçã    | Bala      | Esfiha
+Uva     | Bombom    | Tapioca
 
 
