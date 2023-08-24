@@ -22,8 +22,8 @@ Ingredientes para receita:
 
 Matérias Faculdade:
 * Matemática Discreta
+    * Lógica
     * Conjuntos
-    * Algébra
 
 * PMI
   * VBA
