@@ -3,47 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Semântico</title>
+    <link type="image/png" sizes="32x32" rel="icon" href="./img/icons8-computer-16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>HTML Semântico | Mel</title>
 </head>
+
 <body>
-    <header id="home">
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#sobre-nos">Sobre nós</a>
-                </li>
+    <header id="home" class="header">
+        <h1>Introdução ao HTML semântico</h1>
+        <nav class="nav">
+            <ul class="nav-ul">
+                <li class="nav-li"><a href="#introducao" class="nav-a">Introdução</a></li>
+                <li class="nav-li"><a href="#acessibilidade" class="nav-a">Por que devemos ter acessibilidade?</a></li>
+                <li class="nav-li"><a href="#seo" class="nav-a">Acessibilidade e SEO</a></li>
+                <li class="nav-li"><a href="#tags" class="nav-a">Guia de TAGS semânticas</a></li>
             </ul>
         </nav>
-
-        <h1>Lorem ipsum dolor sit amet.</h1>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda mollitia libero dolorem? Possimus sequi eligendi facilis nostrum, consequuntur dicta dolorum asperiores incidunt corporis dolores veniam consequatur iste sapiente cum vitae vero ex recusandae molestiae voluptate doloremque ipsum. Hic porro itaque cumque quo, quibusdam alias sequi dicta eveniet nihil quia illum, minima, eligendi veniam culpa dolorem facere quas sunt suscipit iusto?</p>
-
-        <p>Quae iusto minus, rerum tenetur nihil maxime nulla atque! Vero asperiores aspernatur iure eligendi officia quisquam, repellendus molestias beatae harum alias recusandae. Laborum rerum reiciendis modi doloribus quos, aspernatur magnam iusto fugit praesentium? Vitae tempore culpa debitis consectetur, excepturi fugiat voluptatum autem asperiores unde nobis quia odio repellat, totam dicta vero. Distinctio incidunt aspernatur, aut eaque expedita ipsa libero doloribus?</p>
-        
-        <p>Omnis quae aperiam ad dolore aspernatur dolores sed facilis corrupti cumque, animi, iusto accusamus possimus similique cum impedit. Ad, doloribus temporibus aspernatur explicabo perferendis rem maxime repellendus nobis minus exercitationem voluptatum, autem obcaecati, vel quia in eaque animi. Laudantium molestiae totam vero quaerat architecto distinctio at pariatur quas eos voluptatum cumque, quibusdam ipsa doloribus. Rem iusto totam deleniti officiis iste.</p>
     </header>
 
-    <section>
-        <h2 id="sobre-nos">Sobre nós</h2>
+    <hr>
 
-        <!-- Abreviação p*(número de parágrafos)>lorem(número de palavras)-->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident reiciendis dolorum, exercitationem voluptatem rerum, nisi quam animi amet sint blanditiis veniam tempora beatae est recusandae ex illo! Optio quae deleniti reiciendis delectus eius sint repellendus natus, dolorum quia veniam ipsa dignissimos ducimus aut voluptatum facere maiores fuga alias tempore eveniet animi! Suscipit, beatae? Amet dolore debitis nesciunt beatae magnam numquam dicta dolorum quam et quae. Dolores quibusdam, deleniti minima illum asperiores unde. Mollitia officiis quisquam modi quia, dolores, sed, error iusto ducimus necessitatibus autem sint consequuntur iste laudantium nam. Corrupti fugit velit ea sapiente esse, animi dolorem? Nisi, laudantium recusandae.</p>
-    
-        <p>Consequatur ratione aliquid, numquam necessitatibus culpa dicta pariatur ea ipsam nobis iure dolores. Deserunt eveniet expedita laudantium dolores error fugiat numquam ullam porro corrupti at cumque fuga illum quaerat tenetur hic animi sequi id veniam rerum, voluptates vitae. Magnam, quas nostrum! Totam perferendis hic voluptas provident modi ab eius enim quam doloribus unde. Vitae adipisci quo necessitatibus voluptatem rem nisi asperiores ipsum quis facere unde veritatis sapiente recusandae maxime, beatae voluptas sint reprehenderit sed autem animi quia ipsam fugiat qui. Adipisci deserunt accusamus debitis at unde? Nihil fuga tempora mollitia fugit? Reiciendis repudiandae voluptates nobis voluptate? Rem facere sunt autem!</p>
+    <main class="main-html">
+        <section id="introducao" >
+            <article>
+                <h2 class="title">O que é HTML semântico e por que é importante?</h2>
+                <p class="main-text">HTML semântico é o ato de organizar nossas marcações com tags específicas que exercem funções próprias, assim tornando todo o nosso código mais fácil de entender.</p>
+                <p  class="main-text">É de suma importância adotarmos a boa prática de utilizar as tags ideais para que nossa página se torna acessível para pessoas com deficiência</p>
+            </article>
+        </section>
+
+        <section id="acessibilidade">
+            <h2 class="title">Por que devemos ter acessibilidade?</h2>
+            <img src="./img/acessibilidade-digital.png" width="100%" alt="Figura de um computador na página web com pessoas de diferentes deficiências olhando">
+
+            <p class="main-text">Páginas acessíveis são mais facilmente indexadas por mecanismos de busca, são compatíveis com uma maior variedade de aplicativos, além de serem mais fáceis e rápidas para navegar, beneficiando, assim, a todas as pessoas, incluindo pessoas idosas, sem habilidade para usar a internet, que utilizam dispositivos móveis etc.</p>
+
+            <p class="main-text">Além de que é importante praticarmos a inclusão em nosso dia-a-dia, principalmente no lugar que hoje em dia é o mais acessado pelo mundo inteiro, a internet. Quando aplicamos quaisquer ferramentas acessíveis em nossas páginas, estamos dando um grande passo para empatia e abraçando todas as pessoas que já são extremamente apagadas na sociedade.</p>
+
+            <details>
+                    <summary><strong>Lei Brasileira da Pessoa com Deficiência</strong></summary>
+
+                    <blockquote>
+                        <p class="main-text">A <mark>lei 13.146, de 6 de julho de 2015</mark>, também conhecida como Lei Brasileira da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência), traz novas perspectivas para o tratamento dessa parcela da população. Muitas vezes excluídos do convívio social em vários níveis, foi necessário instituir essa legislação, como garantia do cumprimento de condutas que asseguram o respeito, o tratamento adequado e a inclusão de todos.</p>
+
+                        <footer  class="main-text">LEI Nº 13.146, DE 6 DE JULHO DE 2015, <cite>Presidência da República</cite></footer>
+                    </blockquote>
+            </details>
+        </section>
+
+        <section id="seo">
+            <h2 class="title">Acessibilidade e SEO</h2>
+
+            <p class="main-text">As técnicas de SEO são extremamente importantes em um projeto de site ou de e-commerce. Afinal, são essas técnicas que vão garantir um bom posicionamento nos motores de busca e, consequentemente, mais visitas e conversões. No entanto, há outro fator que cada vez vem sido mais considerado em um Projeto de SEO – a acessibilidade – isso por impactar diretamente na UX de um grande grupo de usuários. </p>
+
+            <p class="main-text">Um dos principais objetivos de quem possui um site e deseja ter <strong>sucesso nos negócios é aumentar o número de visitantes e aumentar as conversões</strong>. Todos esses tópicos podem, evidentemente, ser melhorados com a aplicação das Técnicas de SEO e boas práticas de Acessibilidade. Vale lembrar que os deficientes também são consumidores em potencial. Portanto, quanto mais exposto seu site estiver nos mecanismos de pesquisa, mais fácil será para esses grupos cheguem ao seu negócio. Além disso, a conexão entre um bom Projeto de SEO e acessibilidade é uma oportunidade de dominar seu nicho, atendendo a uma comunidade que os concorrentes podem estar ignorando. </p>
+
+            <img src="./img/3.png" width="100%" alt="Fluxograma que indica as principais colunas do SEO">
+        </section>
+
+        <section id="tags" class="tags">
+            <h2 class="title">Guia de TAGS semânticas</h2>
+
+            <details>
+                <summary>Tags mais usadas</summary>
+                <ul class="main-list">
+                    <li>&lt;<strong>body</strong>&gt; para o conteúdo</li>
+
+                    <li>&lt;<strong>head</strong>&gt; para informação sobre o documento</li>
+
+                    <li>&lt;<strong>div</strong>&gt; divisão dentro do conteúdo</li>
+
+                    <li>&lt;<strong>a</strong>&gt; para links</li>
+
+                    <li>&lt;<strong>strong</strong>&gt; para usar texto em negrito</li>
+
+                    <li>&lt;<strong>br</strong>&gt; para quebras de linha</li>
+
+                    <li>&lt;<strong>h1</strong>&gt;…&lt;<strong>h6</strong>&gt; para títulos dentro do conteúdo</li>
+
+                    <li>&lt;<strong>img</strong>&gt; para adicionar imagens ao documento</li>
+
+                    <li>&lt;<strong>ol</strong>&gt; para listas ordenadas</li>
+                    <li>&lt;<strong>ul</strong>&gt; para listas desordenadas</li>
+                    <li>&lt;<strong>li</strong>&gt; para elementos dentro da lista</li>
+
+                    <li>&lt;<strong>p</strong>&gt; para parágrafos</li>
+
+                    <li>&lt;<strong>span</strong>&gt; estilos para uma parte do text</li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Lista de elementos semânticos do HTML5</summary>
+                <ul class="main-list">
+                    <li>&lt;article&gt;</li>
+                    <li>&lt;aside&gt;</li>
+                    <li>&lt;details&gt;</li>
+                    <li>&lt;figcaption&gt;</li>
+                    <li>&lt;figure&gt;</li>
+                    <li>&lt;footer&gt;</li>
+                    <li>&lt;header&gt;</li>
+                    <li>&lt;main&gt;</li>
+                    <li>&lt;mark&gt;</li>
+                    <li>&lt;nav&gt;</li>
+                    <li>&lt;section&gt;</li>
+                    <li>&lt;summary&gt;</li>
+                    <li>&lt;time&gt;</li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Links úteis</summary>
+                <ul>
+                    <li><a href="https://www.freecodecamp.org/portuguese/news/elementos-semanticos-do-html5-explicados/">Elementos semânticos explicados</a></li>
+                    <li><a href="https://www.iebschool.com/pt-br/blog/marketing/marketing-digital/o-que-e-uma-tag-html-e-quais-sao-as-mais-importantes/">O que é uma tag HTML e quais são as mais importantes?</a></li>
+                    <li><a href="https://blog.betrybe.com/desenvolvimento-web/comandos-e-tags-html/">Comandos e tags HTML: confira os principais e mais usados!</a></li>
+                    <li><a href="https://www.w3schools.com/tags/">Guia para todas as tags</a></li>
+                </ul>
+            </details>
+        </section>
         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident reiciendis dolorum, exercitationem voluptatem rerum, nisi quam animi amet sint blanditiis veniam tempora beatae est recusandae ex illo! Optio quae deleniti reiciendis delectus eius sint repellendus natus, dolorum quia veniam ipsa dignissimos ducimus aut voluptatum facere maiores fuga alias tempore eveniet animi! Suscipit, beatae? Amet dolore debitis nesciunt beatae magnam numquam dicta dolorum quam et quae. Dolores quibusdam, deleniti minima illum asperiores unde. Mollitia officiis quisquam modi quia, dolores, sed, error iusto ducimus necessitatibus autem sint consequuntur iste laudantium nam. Corrupti fugit velit ea sapiente esse, animi dolorem? Nisi, laudantium recusandae.</p>
-    
-        <p>Consequatur ratione aliquid, numquam necessitatibus culpa dicta pariatur ea ipsam nobis iure dolores. Deserunt eveniet expedita laudantium dolores error fugiat numquam ullam porro corrupti at cumque fuga illum quaerat tenetur hic animi sequi id veniam rerum, voluptates vitae. Magnam, quas nostrum! Totam perferendis hic voluptas provident modi ab eius enim quam doloribus unde. Vitae adipisci quo necessitatibus voluptatem rem nisi asperiores ipsum quis facere unde veritatis sapiente recusandae maxime, beatae voluptas sint reprehenderit sed autem animi quia ipsam fugiat qui. Adipisci deserunt accusamus debitis at unde? Nihil fuga tempora mollitia fugit? Reiciendis repudiandae voluptates nobis voluptate? Rem facere sunt autem!</p>
-        <a href="#home">Início</a>
-    </section>
+        <div class="nav-div">
+            <a href="#home" class="home-link">Clique aqui para voltar ao início.</a>
+        </div>
+    </main>
 
-    <footer>
-        <p>&copy Todos os direitos reservados.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
+    <footer class="main-footer">
+        <p>&copy; Todos os direitos reservados ao Senai e a Melyssa Moya.</p>
+        <p>Este site é uma obra fictícia com o intuito de desenvolver habilidades de HTML semântico.</p>
     </footer>
 </body>
 </html>
