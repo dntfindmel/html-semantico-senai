@@ -59,6 +59,16 @@ body {
     text-decoration: underline;
 }
 
+.link-a {
+    color: black;
+    text-decoration: none;
+}
+
+.link-a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
 .main-footer {
     margin-top: 50px;
     color:white;
