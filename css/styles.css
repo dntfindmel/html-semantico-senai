@@ -75,3 +75,14 @@ body {
     background-color: #2c3e4ce7;
     text-align: center;
 }
+
+@media screen and (max-width: 440px) {
+    .main-html {
+        width: 100%;
+    }
+    
+    .nav, .nav-ul, .header {
+        display: block;
+        text-align: center;
+    }
+}
