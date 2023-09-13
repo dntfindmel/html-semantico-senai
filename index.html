@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="image/png" sizes="32x32" rel="icon" href="./img/icons8-computer-16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>HTML Semântico | Mel</title>
 </head>
 
 <body>
     <header id="home" class="header">
-        <h1>Introdução ao HTML semântico</h1>
+        <h1 class="title">Introdução ao HTML semântico</h1>
         <nav class="nav">
             <ul class="nav-ul">
                 <li class="nav-li"><a href="#introducao" class="nav-a">Introdução</a></li>
@@ -28,14 +29,14 @@
     <main class="main-html">
         <section id="introducao" >
             <article>
-                <h2 class="title">O que é HTML semântico e por que é importante?</h2>
+                <h2 class="title_two">O que é HTML semântico e por que é importante?</h2>
                 <p class="main-text">HTML semântico é o ato de organizar nossas marcações com tags específicas que exercem funções próprias, assim tornando todo o nosso código mais fácil de entender.</p>
                 <p  class="main-text">É de suma importância adotarmos a boa prática de utilizar as tags ideais para que nossa página se torna acessível para pessoas com deficiência</p>
             </article>
         </section>
 
         <section id="acessibilidade">
-            <h2 class="title">Por que devemos ter acessibilidade?</h2>
+            <h2 class="title_two">Por que devemos ter acessibilidade?</h2>
             <img src="./img/acessibilidade-digital.png" width="100%" alt="Figura de um computador na página web com pessoas de diferentes deficiências olhando">
 
             <p class="main-text">Páginas acessíveis são mais facilmente indexadas por mecanismos de busca, são compatíveis com uma maior variedade de aplicativos, além de serem mais fáceis e rápidas para navegar, beneficiando, assim, a todas as pessoas, incluindo pessoas idosas, sem habilidade para usar a internet, que utilizam dispositivos móveis etc.</p>
@@ -43,7 +44,7 @@
             <p class="main-text">Além de que é importante praticarmos a inclusão em nosso dia-a-dia, principalmente no lugar que hoje em dia é o mais acessado pelo mundo inteiro, a internet. Quando aplicamos quaisquer ferramentas acessíveis em nossas páginas, estamos dando um grande passo para empatia e abraçando todas as pessoas que já são extremamente apagadas na sociedade.</p>
 
             <details>
-                    <summary><strong>Lei Brasileira da Pessoa com Deficiência</strong></summary>
+                    <summary class="details-title">Lei Brasileira da Pessoa com Deficiência</summary>
 
                     <blockquote>
                         <p class="main-text">A <mark>lei 13.146, de 6 de julho de 2015</mark>, também conhecida como Lei Brasileira da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência), traz novas perspectivas para o tratamento dessa parcela da população. Muitas vezes excluídos do convívio social em vários níveis, foi necessário instituir essa legislação, como garantia do cumprimento de condutas que asseguram o respeito, o tratamento adequado e a inclusão de todos.</p>
@@ -54,7 +55,7 @@
         </section>
 
         <section id="seo">
-            <h2 class="title">Acessibilidade e SEO</h2>
+            <h2 class="title_two">Acessibilidade e SEO</h2>
 
             <p class="main-text">As técnicas de SEO são extremamente importantes em um projeto de site ou de e-commerce. Afinal, são essas técnicas que vão garantir um bom posicionamento nos motores de busca e, consequentemente, mais visitas e conversões. No entanto, há outro fator que cada vez vem sido mais considerado em um Projeto de SEO – a acessibilidade – isso por impactar diretamente na UX de um grande grupo de usuários. </p>
 
@@ -64,39 +65,47 @@
         </section>
 
         <section id="tags" class="tags">
-            <h2 class="title">Guia de TAGS semânticas</h2>
+            <h2 class="title_two">Guia de TAGS semânticas</h2>
 
             <details>
-                <summary>Tags mais usadas</summary>
+                <summary class="tags-title">Tags mais usadas</summary>
                 <ul class="main-list">
-                    <li>&lt;<strong>body</strong>&gt; para o conteúdo</li>
+                    <li><span class="tags-span">&lt;body&gt;</span> para o conteúdo</li>
+                    <li><span class="tags-span">&lt;body&gt;</span> para o conteúdo</li>
 
-                    <li>&lt;<strong>head</strong>&gt; para informação sobre o documento</li>
+                    <li><span class="tags-span">&lt;head&gt;</span> para informação sobre o documento</li>
+                    <li><span class="tags-span">&lt;head&gt;</span> para informação sobre o documento</li>
 
-                    <li>&lt;<strong>div</strong>&gt; divisão dentro do conteúdo</li>
+                    <li><span class="tags-span">&lt;div&gt;</span> divisão dentro do conteúdo</li>
+                    <li><span class="tags-span">&lt;div&gt;</span> divisão dentro do conteúdo</li>
 
-                    <li>&lt;<strong>a</strong>&gt; para links</li>
+                    <li><span class="tags-span">&lt;a&gt;</span> para links</li>
+                    <li><span class="tags-span">&lt;a&gt;</span> para links</li>
 
-                    <li>&lt;<strong>strong</strong>&gt; para usar texto em negrito</li>
+                    <li><span class="tags-span">&lt;strong&gt;</span> para usar texto em negrito</li>
+                    <li><span class="tags-span">&lt;strong&gt;</span> para usar texto em negrito</li>
 
-                    <li>&lt;<strong>br</strong>&gt; para quebras de linha</li>
+                    <li><span class="tags-span">&lt;br&gt;</span> para quebras de linha</li>
+                    <li><span class="tags-span">&lt;br&gt;</span> para quebras de linha</li>
 
-                    <li>&lt;<strong>h1</strong>&gt;…&lt;<strong>h6</strong>&gt; para títulos dentro do conteúdo</li>
+                    <li><span class="tags-span">&lt;h1&gt;…&lt;h6&gt;</span> para títulos dentro do conteúdo</li>
+                    <li><span class="tags-span">&lt;h1&gt;…&lt;h6>&gt;</span> para títulos dentro do conteúdo</li>
 
-                    <li>&lt;<strong>img</strong>&gt; para adicionar imagens ao documento</li>
+                    <li><span class="tags-span">&lt;img&gt;</span> para adicionar imagens ao documento</li>
+                    <li><span class="tags-span">&lt;img&gt;</span> para adicionar imagens ao documento</li>
 
-                    <li>&lt;<strong>ol</strong>&gt; para listas ordenadas</li>
-                    <li>&lt;<strong>ul</strong>&gt; para listas desordenadas</li>
-                    <li>&lt;<strong>li</strong>&gt; para elementos dentro da lista</li>
+                    <li><span class="tags-span">&lt;ol&gt;</span> para listas ordenadas</li>
+                    <li><span class="tags-span">&lt;ul&gt;</span> para listas desordenadas</li>
+                    <li><span class="tags-span">&lt;li&gt;</span> para elementos dentro da lista</li>
 
-                    <li>&lt;<strong>p</strong>&gt; para parágrafos</li>
+                    <li><span class="tags-span">&lt;p&gt;</span> para parágrafos</li>
 
-                    <li>&lt;<strong>span</strong>&gt; estilos para uma parte do text</li>
+                    <li><span class="tags-span">&lt;span&gt;</span> estilos para uma parte do text</li>
                 </ul>
             </details>
 
             <details>
-                <summary>Lista de elementos semânticos do HTML5</summary>
+                <summary class="tags-title">Lista de elementos semânticos do HTML5</summary>
                 <ul class="main-list">
                     <li>&lt;article&gt;</li>
                     <li>&lt;aside&gt;</li>
@@ -115,7 +124,7 @@
             </details>
 
             <details>
-                <summary>Links úteis</summary>
+                <summary class="tags-title"y>Links úteis</summary>
                 <ul class="main-list">
                     <li><a href="https://www.freecodecamp.org/portuguese/news/elementos-semanticos-do-html5-explicados/" class="link-a">Elementos semânticos explicados</a></li>
                     <li><a href="https://www.iebschool.com/pt-br/blog/marketing/marketing-digital/o-que-e-uma-tag-html-e-quais-sao-as-mais-importantes/" class="link-a">O que é uma tag HTML e quais são as mais importantes?</a></li>
@@ -131,10 +140,10 @@
     </main>
 
     <footer class="main-footer">
-        <p>&copy; Todos os direitos reservados ao Senai e a Melyssa Moya.</p>
-        <p>Este site é uma obra fictícia com o intuito de desenvolver habilidades de HTML semântico.</p>
+        <p class="footer-p footer-copy">&copy; Todos os direitos reservados ao Senai e a Melyssa Moya.</p>
+        <p class="footer-p">Este site é uma obra fictícia com o intuito de desenvolver habilidades de HTML semântico.</p>
 
-        <address>Rua Moreira de Godói, 226 - Ipiranga - São Paulo - SP</address>
+        <address class="footer-p">Rua Moreira de Godói, 226 - Ipiranga - São Paulo - SP</address>
     </footer>
 </body>
 </html>
