@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Flexbox | Mel + Senai</title>
+
+    <style>
+        .elemento-contido, .nao-contido {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 1px solid black;
+            font-weight: bold;
+        }
+
+        .elemento-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 400px;
+            background-color: blueviolet;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        .nao-contido {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Demonstração de Flexbox</h1>
+    <h2>Flexbox → Flexible Box → Caixa flexível</h2>
+    <!-- Setinha = Alt + 26 -->
+    <!-- Atalho de comentário: ctrl + ; -->
+
+    <div class="elemento-container">
+        <div class="elemento-contido">1</div>
+        <div class="elemento-contido">2</div>
+        <div class="elemento-contido">3</div>
+        <div class="elemento-contido">4</div>
+    </div>
+
+    <div class="nao-contido">Não contido</div>
+    <div class="nao-contido">Não contido</div>
+    <div class="nao-contido">Não contido</div>
+    <div class="nao-contido">Não contido</div>
+</body>
+</html>
